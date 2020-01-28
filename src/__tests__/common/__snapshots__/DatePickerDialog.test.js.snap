@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DatePickerDialog /> Rendering 1`] = `
+<MuiPickersUtilsProvider
+  utils={[Function]}
+>
+  <PickerWithState
+    KeyboardButtonProps={
+      Object {
+        "aria-label": "change date",
+      }
+    }
+    allowKeyboardControl={true}
+    className="makeStyles-root-1"
+    format="MM/dd/yyyy"
+    id="date-picker-dialog"
+    invalidDateMessage="Invalid Date Format"
+    margin="normal"
+    maxDate={2100-01-01T00:00:00.000Z}
+    maxDateMessage="Date should not be after maximal date"
+    minDate={1900-01-01T00:00:00.000Z}
+    minDateMessage="Date should not be before minimal date"
+    onChange={[Function]}
+    openTo="date"
+    value={null}
+    views={
+      Array [
+        "year",
+        "date",
+      ]
+    }
+  />
+</MuiPickersUtilsProvider>
+`;

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> Rendering 1`] = `
+<div>
+  <WithStyles(ForwardRef(AppBar))
+    position="fixed"
+  >
+    <WithStyles(ForwardRef(Toolbar))>
+      <WithStyles(ForwardRef(Typography))
+        className="makeStyles-title-2"
+        variant="h6"
+      >
+        Test
+      </WithStyles(ForwardRef(Typography))>
+      <div
+        className="makeStyles-smallDevices-3"
+      />
+    </WithStyles(ForwardRef(Toolbar))>
+  </WithStyles(ForwardRef(AppBar))>
+</div>
+`;

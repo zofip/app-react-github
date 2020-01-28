@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MenuAccount /> Rendering 1`] = `
+<div>
+  <WithStyles(ForwardRef(IconButton))
+    aria-controls="menu-appbar"
+    aria-haspopup="true"
+    aria-label="account of current user"
+    color="inherit"
+    onClick={[Function]}
+  >
+    <AccountCircleIcon />
+  </WithStyles(ForwardRef(IconButton))>
+  <WithStyles(ForwardRef(Menu))
+    anchorEl={null}
+    anchorOrigin={
+      Object {
+        "horizontal": "right",
+        "vertical": "top",
+      }
+    }
+    id="menu-appbar"
+    keepMounted={true}
+    onClose={[Function]}
+    open={false}
+    transformOrigin={
+      Object {
+        "horizontal": "right",
+        "vertical": "top",
+      }
+    }
+  />
+</div>
+`;
